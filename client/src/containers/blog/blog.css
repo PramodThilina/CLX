@@ -1,0 +1,9 @@
+.clx__blog{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 1080px;
+    overflow: hidden;
+    margin: 0;
+    background:white;   
+}

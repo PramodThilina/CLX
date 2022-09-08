@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  
+}
+
+
+.app{
+  overflow: hidden;
+  margin: 0;
+}
+
+@media screen and (max-width: 700px){
+  .section__padding {
+    padding: 4rem 6rem;
+  }
+  .section__margin {
+    margin: 4rem;
+  }
+} 
+
+@media screen and (max-width: 550px){
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+  .section__margin {
+    margin: 4rem 2rem;
+  }
+} 
+
+
+/* hide scrollbar but allow scrolling */
+element {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+element::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}

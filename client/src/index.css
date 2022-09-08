@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family-Roboto+Flex:400,700,900 Roboto:400,700,900,500,800");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,600;8..144,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,900&display=swap');
+
+
+:root{   
+  --black:rgba(0,0,0,1);
+  --matisse:rgba(21,114,161,1);
+  --downy:rgba(121,209,195,1);
+  --portage:rgba(124,160,255,1);
+  --alto: rgba(217,217,217,1);
+  --white:rgba(255,255,255,1);
+  --liteblue:rgba(44, 191, 231, 1);
+  --font-family-roboto:"Roboto";
+  --font-family-roboto_flex:"Roboto Flex";
+  --font-family-roboto_black:"Roboto Black";
+}
+   
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
